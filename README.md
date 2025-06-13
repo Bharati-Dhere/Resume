@@ -32,7 +32,7 @@ It includes a personal profile, skills, education, and a downloadable resume.
 
 ## 🔗 Live Demo
 
-
+ https://bharati-dhere.github.io/Resume/
 
 ## 📄 How to Use
 
