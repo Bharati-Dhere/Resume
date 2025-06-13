@@ -16,7 +16,7 @@ It includes a personal profile, skills, education, and a downloadable resume.
 
 📁 project-folder/
 ├── 📁 assets/          # Contains downloadable resume PDF
-│   └── resume.pdf
+│   └── cv.pdf
 ├── 📁 images/          # Contains profile picture and other images
 │   └── profile.jpeg
 ├── 📄 index.html       # Main resume webpage
