@@ -143,6 +143,7 @@ body
     margin: 10px 0;
 }
 
+
 /*interest*/
 .interest
 {
@@ -195,7 +196,7 @@ body
 }
 .title2 button
 {
-    width: 20%;
+    width: 30%;
     height: 40px;
     background-color: #333333;
     border-radius: 30px;
@@ -412,5 +413,10 @@ body
     .education .info
     {
         margin-bottom: 0;
+    }
+}
+@media (max-width: 300px){
+    .title2 button{
+        width: 35%;
     }
 }
