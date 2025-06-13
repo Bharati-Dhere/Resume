@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #DBDEE3;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.527);
+}
+
+
+/* left side */
+.container .left_side
+{
+    position: relative;
+    background: #333333;
+    padding: 40px;
+}
+
+/* profile picture */
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #DBDEE3;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* contact info */
+.contactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: #DBDEE3;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    font-size: 18px;
+    color: #dfdbdb36;
+}
+.contactInfo ul li span,
+.tools ul li span,
+.certification ul li span
+{
+    color: #DBDEE3;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* tools */
+.tools
+{
+    padding-top: 25px;
+}
+.tools ul li
+{
+    list-style: none;
+    margin: 10px 0;
+}
+
+/* certification */
+.certification
+{
+    padding-top: 25px;
+}
+.certification ul li
+{
+    list-style: none;
+    margin: 10px 0;
+}
+
+/*interest*/
+.interest
+{
+    padding-top: 25px;
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.interest ul li
+{
+    list-style: none;
+    color: #DBDEE3;
+    font-weight: 300;
+    font-style: italic;
+    margin: 10px 0;;
+}
+.interest ul li .fa
+{
+
+    font-size: 18px;
+    color: #dfdbdb36;
+}
+
+
+/* right side */
+.container .right_side
+{
+    position: relative;
+    background: #DBDEE3;
+    padding: 40px;
+}
+
+/*about*/
+.about
+{
+    margin-bottom: 30px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    
+    margin-left: 1px;
+    margin-bottom: 10px;
+
+}
+.title2 button
+{
+    width: 20%;
+    height: 40px;
+    background-color: #333333;
+    border-radius: 30px;
+    margin: 10px;
+    color: #DBDEE3;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.subtitle
+{
+    margin-left: 40px;
+}
+.about .subtitle p
+{
+    color: #333333;
+    text-align: justify;
+    font-weight: 500;
+}
+
+/*work experience*/
+.experience
+{
+    margin-bottom: 30px;
+}
+.experience .info
+{
+    color: #333333;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.experience .info .subinfo
+{
+    margin-left: 30px;
+}
+.experience .info .subinfo ul
+{
+    list-style: none;
+}
+.experience .info .subinfo ul li
+{
+    color: #333333;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*work experience*/
+.education
+{
+    margin-bottom: 30px;
+}
+.education .info
+{
+    color: #333333;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.education .info .subinfo
+{
+    margin-left: 30px;
+}
+.education .info .subinfo ul
+{
+    list-style: none;
+}
+.education .info .subinfo ul li
+{
+    color: #333333;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/*SKILLS */
+.skills
+{
+    margin-bottom: 30px;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 500;
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #c2c0c096;
+    border-radius: 50px;
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #7e7c7caf;
+    border-radius: 50px;
+}
+
+/*language*/
+.language
+{
+    margin-bottom: 30px;
+}
+.language .info
+{
+    margin-bottom: 5px;
+}
+.language .info .subinfo
+{
+   
+    color: #333333;
+    text-align: justify;
+    font-weight: 500;
+}
+.language .info .subinfo ul
+{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    list-style: none;
+}
+.language .info .subinfo ul li
+{
+    color: #333333;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+}
+.language .info .subinfo .download
+{
+    display: block;
+    text-decoration: underline;
+}
+.language .info .subinfo .download:hover
+{
+    color: #7e7c7caf;
+}
+
+/* responsive*/
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    p
+    {
+        
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    } 
+    ul 
+    {
+       
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }   
+    h2 
+    {
+        
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    li 
+    {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+}
+
+@media (max-width: 600px)
+{
+    h4 
+    {
+       
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .language .info .subinfo ul
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .skills .box
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .education .info
+    {
+        margin-bottom: 0;
+    }
+}

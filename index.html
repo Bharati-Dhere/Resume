@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive resume using HTML and CSS</title>
+    <!--fontawesome 4.7.0 icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style.css link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Left side-->
+        <div class="left_side">
+            <!--profile picture-->
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="./images/profile.jpeg">
+                </div>
+                <h2>Bharati Dhere<br><span>Web Developer</span></h2>
+            </div>
+            
+            <!--Contact info-->
+            <div class="contactInfo">
+                <h3 class="title">Contact </h3>
+
+                <ul>
+                    <li>
+                        <span class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Pune,Maharashtra</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i> </span>
+                        <span class="text">August 15th, 2007</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                        <span class="text">+91 8626014383</span>
+                    </li>
+
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span class="text">dbharati5162@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Tools -->
+            <div class="tools">
+                <div class="title">Education</div>
+
+                <ul>
+                    <li><span>VS Code</span></li>
+                    <li><span>Figma</span></li>
+                    <li><span>Canva</span></li>
+                </ul>
+            </div>
+
+             <!--Certification -->
+             <div class="certification">
+                <div class="title">Certification</div>
+
+                <ul>
+                    <li><span>Network Protocols in Computer Networks</span></li>
+                    <li><span>Database Management System</span></li>
+                </ul>
+            </div>
+
+            <!--interest -->
+            <div class="interest">
+                <div class="title">Interest</div>
+
+                <ul>
+                    <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Travel</li>
+                    <li><i class="fa fa-paint-brush" aria-hidden="true"></i>Drawing</li>
+                    <li><i class="fa fa-music" aria-hidden="true"></i></i>Music</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <!--Right side-->
+        <div class="right_side">
+            <!--profile-->
+            <div class="about">
+                <h2 class="title2"><button>Profile</button></h2>
+                <div class="subtitle">
+                    <p>
+                        I’m a Computer Engineering diploma student, currently learning full stack web development. I'm a quick learner, like working in teams, and excited to use what I’ve learned in real projects during my internship.<br><br>
+                        Committed to developing coding skills and contributing effectively to projects during my internship training period.
+                    </p>
+                </div>
+            </div>
+
+            <!--Work experience-->
+            <div class="experience">
+                <h2 class="title2"><button>Work Experience</button></h2>
+                <div class="subtitle">
+                    <div class="info">
+                        <span>Intern - Full Stack Web Development</span>
+                        <div class="subinfo">
+                            <ul>
+                                <li>Linkcode Technologies,pune</li>
+                                <li>2 June -present</li>
+                            </ul>
+                        </div> 
+                    </div>
+    
+                    <div class="info">
+                        <span>Creating responsive resumes using HTML and CSS.</span>
+                    </div>
+    
+                    <div class="info">
+                        <span>Collaborating with senior developers on web development.</span>
+                    </div>
+                </div>    
+            </div>
+
+            <!--Education-->
+            <div class="education">
+                <h2 class="title2"><button>Education</button></h2>
+                <div class="subtitle">
+                    <div class="info">
+                        <span>Diploma in Computer Engineering</span>
+                        <div class="subinfo">
+                            <ul>
+                                <li>Pimpri Chinchwad Polytechnic,Maharashtra</li>
+                                <li>Aug 2023 - Present</li>
+                                <li>Currently in final year | Expected Completion: May 2026</li>
+                            </ul>
+                        </div> 
+                    </div>
+    
+                    <div class="info">
+                        <span>Senior Secondary School</span>
+                        <div class="subinfo">
+                            <ul>
+                                <li>Smt. S. D. Gange Prashshala, Chinchwad</li>
+                                <li>2023 | Board: SSC</li>
+                                <li>Percentge: 89.60%</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>    
+            </div>
+
+            <!--Skills-->
+            <div class="skills">
+                <h2 class="title2"><button>Professional skills</button></h2>
+                <div class="subtitle">
+                   <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 96%;"></div>
+                    </div>
+                   </div>
+                   
+                   <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                   </div>
+
+                   <div class="box">
+                    <h4>C</h4>
+                    <div class="percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                   </div>
+
+                   <div class="box">
+                    <h4>JAVA</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+                    </div>
+                   </div>
+
+                   <div class="box">
+                    <h4>PYTHON</h4>
+                    <div class="percent">
+                        <div style="width: 78%;"></div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+            <!--language-->
+            <div class="language">
+                <h2 class="title2"><button>Language</button></h2>
+                <div class="subtitle">
+                    <div class="info">
+                        <div class="subinfo">
+                            <ul>
+                                <li>Marathi</li>
+                                <li>Hindi</li>
+                                <li>English</li>
+                            </ul>
+                        </div> 
+                        <div class="subinfo">
+                            <a class="download" href="./assests/cv.pdf" download>Download Resume</a>
+                        </div>
+                    </div>
+    
+                </div>    
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
